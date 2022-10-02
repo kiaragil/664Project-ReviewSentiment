@@ -1,4 +1,4 @@
-with open("/Users/hemantathapa/Desktop/Fall 2022/CSC 664-02/Project/aclImdb/train/unsup/1_0.txt") as f:
+with open("aclImdb/test/neg/0_2.txt") as f:
     lines = f.readlines()
     # formatted = lines.split(".")
 formatted = lines[0].split(".")
