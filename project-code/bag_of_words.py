@@ -46,8 +46,6 @@ def remove_BR(word):
         word = word[:-2]
     return word
   
-
-
 def word_count(fname):
     number_of_words = 0
     
@@ -82,7 +80,7 @@ neg_directory = 'aclImdb/test/neg/'
 pos_directory = 'aclImdb/test/pos/'
 
 # test_csv = pd.read_csv('IMDB_Dataset.csv') 
-df = pd.read_csv('IMDB_Dataset.csv')
+df = pd.read_csv('project-code\IMDB_Dataset.csv')
 print(df)
 
 # number of documents to read
